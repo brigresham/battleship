@@ -1,0 +1,38 @@
+header {
+    background-color: blue;
+}
+body {
+    background-image: url(../images/how-to-play-a-battleship-in-world-of-warships.webp);
+    background-repeat: none;
+    
+}
+h1{
+    text-align: center;
+}
+.square {
+    display: inline;
+    background-color: lightgray;
+    padding: 30px;
+    border: 2px solid black;
+    margin-right: 3px;
+}
+.row{
+    text-align: center;
+    margin: 33px;
+}
+.first {
+    margin-bottom: 63px;
+}
+.second {
+    margin-bottom: 63px;
+}
+@media (min-width:768px) {
+    .first {
+        margin-top: 125px;
+    }
+    
+}
+.click {
+    text-align: center;
+    margin: 50px;
+}
